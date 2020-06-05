@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="heading" datatype="html">
+        <source>Demo of Error Codes</source>
+        <target>Demo of Error Codes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">4</context>
+        </context-group>
+        <note priority="1" from="description"> Page Heading text</note>
+        <note priority="1" from="meaning">Heading </note>
+      </trans-unit>
+      <trans-unit id="userName" datatype="html">
+        <source>Your Name: </source>
+        <target>Your Name: </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">7</context>
+        </context-group>
+        <note priority="1" from="description"> User name text</note>
+        <note priority="1" from="meaning">User Name </note>
+      </trans-unit>
+      <trans-unit id="addButton" datatype="html">
+        <source>Add</source>
+        <target>Add</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+        <note priority="1" from="description"> Add button text</note>
+        <note priority="1" from="meaning">Add Button </note>
+      </trans-unit>
+      <trans-unit id="langInfo" datatype="html">
+        <source>Select Language</source>
+        <target>Select Language</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">app/app.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description"> Select Language info text</note>
+        <note priority="1" from="meaning">Lang Info </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

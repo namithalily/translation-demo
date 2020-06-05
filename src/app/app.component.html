@@ -1,0 +1,38 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div>
+
+  <h2 i18n="Heading | Page Heading text@@heading">Demo of Error Codes</h2>
+
+  <div class="row">
+      <label i18n="User Name | User name text@@userName">Your Name: </label>
+      <input
+        type="text"
+        class="form-control"
+        (input)="onUpdateName($event)">
+      <button
+        type="button"
+        class="button"
+        i18n="Add Button | Add button text@@addButton"
+        (click)="onAddName()">Add</button>
+  </div>
+  <div *ngIf="error">
+    <p style="color: red;">{{ error | serverError | translate }}</p>
+  </div>
+
+  <div *ngIf="success">
+    <p style="color: green;">{{ success | serverSuccess | translate }}</p>
+  </div>
+
+  <h3 i18n="Lang Info | Select Language info text@@langInfo">Select Language</h3>
+
+  <ng-container *ngFor="let language of languageList"> 
+    <a href="/{{language.code}}/"> 
+      <button class="button">{{language.label}}</button> 
+    </a>
+  </ng-container>
+
+<!--   <ng-container *ngFor="let language of languageList"> 
+      <button class="button" (click)=useLanguage(language.code)>{{language.label}}</button> 
+  </ng-container> -->
+  
+</div>

@@ -1,0 +1,13 @@
+{
+	"error":
+	{
+		"0x01": "Please avoid short names",
+		"0x02": "User name already exists",
+		"0x03": "Please enter a name"
+	},
+
+	"success":
+	{
+		"0x01": "User added successfully"
+	}
+}
